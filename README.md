@@ -1,9 +1,6 @@
 # Windows-basic-commands-batchscript
 Ex08-Windows-basic-commands-batchscript
 
-Developed By: ROSHINI R K
-
-Reg No: 212222230123
 
 # AIM:
 To execute Windows basic commands and batch scripting
@@ -13,92 +10,49 @@ To execute Windows basic commands and batch scripting
 ### Step 1:
 
 Navigate to any Windows environment installed on the system or installed inside a virtual environment like virtual box/vmware 
-
 ### Step 2:
-
 Write the Windows commands / batch file
 Save each script in a file with a .bat extension.
 Ensure you have the necessary permissions to perform the operations.
 Adapt paths as needed based on your system configuration.
 ### Step 3:
-
 Execute the necessary commands/batch file for the desired output. 
-
-
-
 
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "MyLab" on the desktop.
 
-## COMMAND AND OUTPUT
-
-mkdir %userprofile%\Desktop\MyLab
-![image](https://github.com/roshiniRK/Windows-basic-commands-batchscript/assets/118956165/5b9e9b36-ef0a-4ee7-a855-8703f462fdc9)
-
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
-## COMMAND AND OUTPUT
-
-cd %userprofile%\Desktop\MyLab
-
-![image](https://github.com/roshiniRK/Windows-basic-commands-batchscript/assets/118956165/9a9c8ae2-ee6d-4dbc-9632-4b1a8f7f7919)
-
-![image](https://github.com/roshiniRK/Windows-basic-commands-batchscript/assets/118956165/e178db40-9af0-45aa-ac74-1fc6dd75601d)
-
-
 
 List the contents of the "MyLab" directory.
+![Screenshot 2024-05-07 134409](https://github.com/Haripriya132006/Windows-basic-commands-batchscript/assets/144870747/4ec10cee-b818-4d01-8299-5d2d57250087)
 ## COMMAND AND OUTPUT
-
-dir %userprofile%\Desktop\MyLab
-
-![image](https://github.com/roshiniRK/Windows-basic-commands-batchscript/assets/118956165/18115e64-3f55-4b04-825e-5ed79b0a3815)
-
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
+![Screenshot 2024-05-07 134448](https://github.com/Haripriya132006/Windows-basic-commands-batchscript/assets/144870747/70565b8a-5840-4eaa-984a-ab99809c6d69)
+
 ## COMMAND AND OUTPUT
-
-mkdir %userprofile%\Desktop\Backup
-
-copy MyFile.txt %userprofile%\Desktop\Backup
-
-
-![image](https://github.com/roshiniRK/Windows-basic-commands-batchscript/assets/118956165/ff672c06-cc47-49d9-9a8c-d321b732090f)
-
-![image](https://github.com/roshiniRK/Windows-basic-commands-batchscript/assets/118956165/bc7cda54-748e-42d6-8cc6-15afbdcd1dc7)
-
 
 Move the "MyLab" directory to the "Documents" folder.
 
-## COMMAND AND OUTPUT
-
-mv Myfile.txt %userprofile%\Documents
-
-![image](https://github.com/roshiniRK/Windows-basic-commands-batchscript/assets/118956165/59a14bc4-3c4f-42ec-b639-7807bd71d955)
-
+![Screenshot 2024-05-07 135952](https://github.com/Haripriya132006/Windows-basic-commands-batchscript/assets/144870747/04d38f24-2681-4fb7-a9a0-ac511891b371)
 
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
-```
-@echo off
-mkdir %userprofile%\Desktop\DocBackup
-copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
-echo Backup completed successfully!
-```
-Modify the script to delete files with the ".docx" extension from the "Documents" folder after creating the backup.
-```
-@echo off
-mkdir %userprofile%\Desktop\DocBackup
-copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
-del %userprofile%\Documents\*.docx
-echo Backup and deletion completed successfully!
-```
+
+
+
+
+
 
 ## OUTPUT
+![Screenshot 2024-05-07 140628](https://github.com/Haripriya132006/Windows-basic-commands-batchscript/assets/144870747/22c98d2a-dd2b-43c5-8896-c2c28611ad24)
 
-![image](https://github.com/roshiniRK/Windows-basic-commands-batchscript/assets/118956165/e0e73bb5-2c70-4c64-b077-d6abc0a8f318)
+![Screenshot 2024-05-07 141353](https://github.com/Haripriya132006/Windows-basic-commands-batchscript/assets/144870747/8b271ff0-abd5-4a02-898f-343b125b900e)
+
+
 
 
 # RESULT:
